@@ -1,0 +1,19 @@
+Data Type,Data Label,Column Name,Description,BeginTime,EndTime,Units,Type
+Environmental Data,Modis Enhanced Vegetation Index,Modis_EVI,Mean value of the monthly MODIS EVI time series data,2001,2012,index,numeric
+Environmental Data,Modis Leaf Area Index,Modis_LAI,Mean value of the 8-day MODIS LAI time series data,2001,2012,percent cover,numeric
+Environmental Data,Organic carbon,wosis_orgc,Gravimetric content of organic carbon in the fine earth fraction <2 mm (g/kg),,,,numeric
+Environmental Data,pH H2O ,wosis_phaq,"A measure of the acidity or alkalinity in soils, defined as the negative logarithm (base 10) of the activity of hydronium ions (H+) in water",,,,numeric
+Environmental Data,Clay total ,wosis_clay,Gravimetric content of < 0.002 mm soil material in the fine earth fraction < 2 mm (g/100g) ,,,,numeric
+Environmental Data,Silt Total,wosis_silt,"0.002 mm to Y mm fraction of the <  2 mm soil material (g/100g); esd (equivalent spherical diameter), X resp. Y as specified in the analytical method descriptions",,,,numeric
+Environmental Data,Sand Total,wosis_sand,"Larger than Y mm fraction of the < 2 mm soil material (g/100g); esd (equivalent spherical diameter), Y as specified in the analytical method descriptions",,,,numeric
+Climate Data,Precipitation,precipitation,Mean monthly precipitation estimated based on the GSMaP,2003,2006,mm of rain,numeric
+Climate Data,Elevation,Elevation,Global Relief Model based on SRTM 30+ and ETOPO DEM at 1/120 arcdeegres,February 1 2002,February 1 2010,meters,numeric
+Climate Data,Temperature,Temperature,Mean value the 8-day MODIS day-time LST time series data,2011,2012,degree Celsius,numeric
+Climate Data,Evaporation,Evaporation,Long-term MODIS-estimated Evapotranspiration (MOD16),2000,2012,mm/year,numeric
+Demographic,Population Denisty,popDensity,Average population density 1990-2015 based on GPW v3,1990,2015,people per square-km,numeric
+Demographic,Travel Time To Closest City,TimeToCity,Global accessibility map based on the road networks in 2000,2000,2000,travel time to major cities in hours,numeric
+Demographic,Night Light,AvgNightLight,Mean value of the long-term lights at night images,1992,2010,reflection levels 1-63,numeric
+Demographic,Land Usage Data,Land Classification,Land Cover classes based on the MERIS FR images,2000,2005,,factor
+Regional Conflicts,Total Conflicts,Conflicts_total,Total # of regional Conflicts in the past since 2008,2008,2016,count of conflicts,numeric
+Regional Conflicts,Total Conflict Related Deaths,Conflicts_totalDeaths,Total count of conflict related deaths in the of regional Conflicts in the past since 2008,2008,2016,sum of deaths,numeric
+Regional Conflicts,Total Conflict Related Civilian Deaths,Conflicts_totalDeathsCivilains,Total count of conflict related civilian deaths in the of regional Conflicts in the past since 2008,2008,2016,sum of civilian deaths,numeric
